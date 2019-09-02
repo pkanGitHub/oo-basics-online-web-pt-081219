@@ -1,6 +1,6 @@
 class Book
   attr_accessor :author, :page_count, :genre
-  def initialized(title)
+  def initialize(title)
     @title = title
   end
 
@@ -8,8 +8,20 @@ class Book
     @title
   end
 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def author=(author)
+    @author = author
+  end
+
+  def author
+    @author
+  end
+
+  def page_count=(num)
+    @page_count = num
+  end
+
+  def page_count
+    @page_count
   end
 end
 
