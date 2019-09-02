@@ -16,4 +16,4 @@ class Shoe
   end
 end
 
-condition = Shoe.condition("old")
+condition = Shoe.condition("new")
