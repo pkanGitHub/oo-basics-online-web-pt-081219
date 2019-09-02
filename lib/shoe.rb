@@ -16,4 +16,4 @@ class Shoe
   end
 end
 
-brand = Shoe.new("old")
+brand = Shoe.new("new")
